@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CyPlayer</title>
+    <link rel="stylesheet" href="app.css" />
+		<script type="module" src="dist/index.js" defer></script>
+  </head>
+  <body>
+    <template id="player-template">
+    </template>
+
+    <div id="app">
+			<audio id="audioDOM"><source src=""></audio>
+			<img id="coverDOM" src="" />
+			<p id="titleDOM"></p>
+			<p id="artistDOM"></p>
+			<button id="prevBtn" disabled>Prev</button>
+			<button id="playBtn" disabled>Play</button>
+			<button id="nextBtn" disabled>Next</button>
+			<ul id="playlistDOM">
+			</ul>
+		</div>
+  </body>
+</html>

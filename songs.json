@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Song Title",
+    "artist": "Artist",
+    "cover": "albumcover.webp",
+    "src": "song1.mp3",
+    "album": "Album Name",
+    "year": "2021",
+    "genre": "electronic"
+  },
+  {
+    "title": "Song Title",
+    "artist": "Artist",
+    "cover": "albumcover.webp",
+    "src": "song2.mp3",
+    "album": "Album Name",
+    "year": "2021",
+    "genre": "electronic"
+  }
+]
